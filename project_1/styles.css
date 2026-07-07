@@ -1,0 +1,64 @@
+body{
+  background-color:whitesmoke;
+  font-family:Slab Serif;
+  font-weight:800;
+}
+
+#playing-cards{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap: 20px;
+
+}
+
+.card{
+  width:300px;
+  height:450px;
+  border:2px solid black;
+  border-radius:6px;
+  display:flex;
+  justify-content:space-between;
+  background-color:white; 
+  box-shadow:2px 2px 10px red;
+}
+
+.special{
+  box-shadow:2px 2px 10px black;
+}
+
+pre,p{
+  transform:scale(2.5);
+}
+
+.left{
+  display:flex;
+  flex-direction:column;
+  align-self:flex-start;
+  padding: 0 0 0 8px;
+}
+
+.middle{
+  display:flex;
+  flex-direction:column;
+  align-self:center;
+  box-sizing:box-content; 
+}
+
+.right{
+  display:flex;
+  flex-direction:column;
+  align-self:flex-end;
+  padding: 0 8px 0 0;
+  box-sizing:box-content;
+}
+
+.diamond, .heart{
+  color:red;
+}
+
+
+
+
+
+
